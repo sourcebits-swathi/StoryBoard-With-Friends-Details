@@ -12,15 +12,18 @@
 		67E6430219178ECC006CC71E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6430119178ECC006CC71E /* UIKit.framework */; };
 		67E6430819178ECC006CC71E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67E6430619178ECC006CC71E /* InfoPlist.strings */; };
 		67E6430A19178ECC006CC71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6430919178ECC006CC71E /* main.m */; };
-		67E6430E19178ECC006CC71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6430D19178ECC006CC71E /* AppDelegate.m */; };
 		67E6431119178ECC006CC71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E6430F19178ECC006CC71E /* Main.storyboard */; };
-		67E6431419178ECC006CC71E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6431319178ECC006CC71E /* ViewController.m */; };
 		67E6431619178ECC006CC71E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E6431519178ECC006CC71E /* Images.xcassets */; };
 		67E6431D19178ECC006CC71E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6431C19178ECC006CC71E /* XCTest.framework */; };
 		67E6431E19178ECC006CC71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E642FD19178ECC006CC71E /* Foundation.framework */; };
 		67E6431F19178ECC006CC71E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6430119178ECC006CC71E /* UIKit.framework */; };
 		67E6432719178ECC006CC71E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67E6432519178ECC006CC71E /* InfoPlist.strings */; };
 		67E6432919178ECC006CC71E /* FriendDetailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6432819178ECC006CC71E /* FriendDetailsTests.m */; };
+		67E64342191790D3006CC71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6433A191790D3006CC71E /* AppDelegate.m */; };
+		67E6435A1917A25E006CC71E /* FDDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E643591917A25E006CC71E /* FDDetailedViewController.m */; };
+		67E643641917A915006CC71E /* FDListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E643631917A915006CC71E /* FDListViewController.m */; };
+		67E643BA1917B7BA006CC71E /* FDPickPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E643B91917B7BA006CC71E /* FDPickPhotoViewController.m */; };
+		67E643BE1917BA44006CC71E /* FriendsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E643BD1917BA44006CC71E /* FriendsList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67E579DA1918C64800B9EBF3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		67E642FA19178ECC006CC71E /* FriendDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E642FD19178ECC006CC71E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67E642FF19178ECC006CC71E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		67E6430119178ECC006CC71E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		67E6430519178ECC006CC71E /* FriendDetails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendDetails-Info.plist"; sourceTree = "<group>"; };
 		67E6430719178ECC006CC71E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67E6430919178ECC006CC71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67E6430B19178ECC006CC71E /* FriendDetails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FriendDetails-Prefix.pch"; sourceTree = "<group>"; };
-		67E6430C19178ECC006CC71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		67E6430D19178ECC006CC71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		67E6431019178ECC006CC71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67E6431219178ECC006CC71E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		67E6431319178ECC006CC71E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		67E6431519178ECC006CC71E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67E6431B19178ECC006CC71E /* FriendDetailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendDetailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E6431C19178ECC006CC71E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		67E6432419178ECC006CC71E /* FriendDetailsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendDetailsTests-Info.plist"; sourceTree = "<group>"; };
 		67E6432619178ECC006CC71E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67E6432819178ECC006CC71E /* FriendDetailsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendDetailsTests.m; sourceTree = "<group>"; };
+		67E64339191790D3006CC71E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67E6433A191790D3006CC71E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67E6433C191790D3006CC71E /* FriendDetails-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FriendDetails-Info.plist"; sourceTree = "<group>"; };
+		67E6433D191790D3006CC71E /* FriendDetails-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FriendDetails-Prefix.pch"; sourceTree = "<group>"; };
+		67E643581917A25E006CC71E /* FDDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDetailedViewController.h; sourceTree = "<group>"; };
+		67E643591917A25E006CC71E /* FDDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDetailedViewController.m; sourceTree = "<group>"; };
+		67E643621917A915006CC71E /* FDListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDListViewController.h; sourceTree = "<group>"; };
+		67E643631917A915006CC71E /* FDListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDListViewController.m; sourceTree = "<group>"; };
+		67E643B81917B7BA006CC71E /* FDPickPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPickPhotoViewController.h; sourceTree = "<group>"; };
+		67E643B91917B7BA006CC71E /* FDPickPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPickPhotoViewController.m; sourceTree = "<group>"; };
+		67E643BC1917BA44006CC71E /* FriendsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsList.h; sourceTree = "<group>"; };
+		67E643BD1917BA44006CC71E /* FriendsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67E579D91918C64800B9EBF3 /* Common File */ = {
+			isa = PBXGroup;
+			children = (
+				67E579DA1918C64800B9EBF3 /* Constants.h */,
+			);
+			path = "Common File";
+			sourceTree = "<group>";
+		};
 		67E642F119178ECC006CC71E = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +130,9 @@
 		67E6430319178ECC006CC71E /* FriendDetails */ = {
 			isa = PBXGroup;
 			children = (
-				67E6430C19178ECC006CC71E /* AppDelegate.h */,
-				67E6430D19178ECC006CC71E /* AppDelegate.m */,
 				67E6430F19178ECC006CC71E /* Main.storyboard */,
-				67E6431219178ECC006CC71E /* ViewController.h */,
-				67E6431319178ECC006CC71E /* ViewController.m */,
 				67E6431519178ECC006CC71E /* Images.xcassets */,
+				67E64337191790D3006CC71E /* Source */,
 				67E6430419178ECC006CC71E /* Supporting Files */,
 			);
 			path = FriendDetails;
@@ -126,10 +141,8 @@
 		67E6430419178ECC006CC71E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				67E6430519178ECC006CC71E /* FriendDetails-Info.plist */,
 				67E6430619178ECC006CC71E /* InfoPlist.strings */,
 				67E6430919178ECC006CC71E /* main.m */,
-				67E6430B19178ECC006CC71E /* FriendDetails-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +163,82 @@
 				67E6432519178ECC006CC71E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67E64337191790D3006CC71E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				67E579D91918C64800B9EBF3 /* Common File */,
+				67E643BB1917B9F2006CC71E /* ModelClasses */,
+				67E64338191790D3006CC71E /* AppDelegate */,
+				67E6433B191790D3006CC71E /* Defaultfiles */,
+				67E6433E191790D3006CC71E /* View Controllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		67E64338191790D3006CC71E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				67E64339191790D3006CC71E /* AppDelegate.h */,
+				67E6433A191790D3006CC71E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		67E6433B191790D3006CC71E /* Defaultfiles */ = {
+			isa = PBXGroup;
+			children = (
+				67E6433C191790D3006CC71E /* FriendDetails-Info.plist */,
+				67E6433D191790D3006CC71E /* FriendDetails-Prefix.pch */,
+			);
+			path = Defaultfiles;
+			sourceTree = "<group>";
+		};
+		67E6433E191790D3006CC71E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67E643611917A915006CC71E /* Homescreen */,
+				67E643571917A25E006CC71E /* DetailScreen */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		67E643571917A25E006CC71E /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				67E643581917A25E006CC71E /* FDDetailedViewController.h */,
+				67E643591917A25E006CC71E /* FDDetailedViewController.m */,
+				67E643B71917B77F006CC71E /* SelectingPhoto */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		67E643611917A915006CC71E /* Homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				67E643621917A915006CC71E /* FDListViewController.h */,
+				67E643631917A915006CC71E /* FDListViewController.m */,
+			);
+			path = Homescreen;
+			sourceTree = "<group>";
+		};
+		67E643B71917B77F006CC71E /* SelectingPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				67E643B81917B7BA006CC71E /* FDPickPhotoViewController.h */,
+				67E643B91917B7BA006CC71E /* FDPickPhotoViewController.m */,
+			);
+			path = SelectingPhoto;
+			sourceTree = "<group>";
+		};
+		67E643BB1917B9F2006CC71E /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				67E643BC1917BA44006CC71E /* FriendsList.h */,
+				67E643BD1917BA44006CC71E /* FriendsList.m */,
+			);
+			path = ModelClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E6431419178ECC006CC71E /* ViewController.m in Sources */,
-				67E6430E19178ECC006CC71E /* AppDelegate.m in Sources */,
+				67E64342191790D3006CC71E /* AppDelegate.m in Sources */,
+				67E643BE1917BA44006CC71E /* FriendsList.m in Sources */,
+				67E6435A1917A25E006CC71E /* FDDetailedViewController.m in Sources */,
+				67E643641917A915006CC71E /* FDListViewController.m in Sources */,
+				67E643BA1917B7BA006CC71E /* FDPickPhotoViewController.m in Sources */,
 				67E6430A19178ECC006CC71E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,8 +471,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FriendDetails/FriendDetails-Prefix.pch";
-				INFOPLIST_FILE = "FriendDetails/FriendDetails-Info.plist";
+				GCC_PREFIX_HEADER = "FriendDetails/Source/Defaultfiles/FriendDetails-Prefix.pch";
+				INFOPLIST_FILE = "FriendDetails/Source/Defaultfiles/FriendDetails-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,8 +484,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FriendDetails/FriendDetails-Prefix.pch";
-				INFOPLIST_FILE = "FriendDetails/FriendDetails-Info.plist";
+				GCC_PREFIX_HEADER = "FriendDetails/Source/Defaultfiles/FriendDetails-Prefix.pch";
+				INFOPLIST_FILE = "FriendDetails/Source/Defaultfiles/FriendDetails-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +552,7 @@
 				67E6432E19178ECC006CC71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E6432F19178ECC006CC71E /* Build configuration list for PBXNativeTarget "FriendDetailsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +561,7 @@
 				67E6433119178ECC006CC71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
